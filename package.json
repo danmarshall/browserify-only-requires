@@ -1,0 +1,24 @@
+{
+  "name": "browserify-only-requires",
+  "version": "1.0.0",
+  "description": "Browserify only the require() dependencies of a file, with external references to them.",
+  "preferGlobal ": true,
+  "bin": {
+    "browserify-only-requires": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danmarshall/browserify-only-requires.git"
+  },
+  "author": "Dan Marshall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmarshall/browserify-only-requires/issues"
+  },
+  "homepage": "https://github.com/danmarshall/browserify-only-requires",
+  "dependencies": {
+    "browserify": "^10.2.3",
+    "browserify-string": "^1.1.1",
+    "get-require-vars": "^1.0.1"
+  }
+}
